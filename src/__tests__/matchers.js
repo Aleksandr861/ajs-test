@@ -13,5 +13,5 @@ test('should show health status for each level', () => {
         { name: 'мечник', health: 10 },
     ];
     const result = checkUpSorted(players);
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
 });
