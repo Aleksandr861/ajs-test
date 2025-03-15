@@ -10,5 +10,5 @@ test.each([
 ('should show health status for %s level with %i hit-points'),
 (character, hitPoints, expected) => {
     const result = checkUp(character, hitPoints);
-    expect(result).toBe(expected)
+    expected(result).toBe(expected)
 });
